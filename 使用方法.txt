@@ -1,0 +1,10 @@
+这个文件夹里的 build-apk.yml 是 GitHub Actions 自动编译配置。
+
+手机上传项目文件后：
+1. 打开仓库的 Actions
+2. 选择 set up a workflow yourself（如果页面有）
+3. 把 build-apk.yml 的内容复制进去
+4. 文件名必须是 .github/workflows/build-apk.yml
+5. 提交后运行 Build APK
+
+不要把 API Key 写进代码或 GitHub 文件。
